@@ -1,0 +1,36 @@
+#container {
+  position: relative;
+  justify-content: center;
+}
+
+#text {
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  float: left;
+  text-align: left;
+}
+
+#form {
+  width: 40%;
+  height: 100vh;
+  float: right;
+}
+
+#form-content {
+  width: 80%;
+  height: 50vh;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  background-color: rgb(228, 225, 225);
+}
+
+#text-content {
+  width: 80%;
+  height: 50vh;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+}
