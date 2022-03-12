@@ -1,25 +1,24 @@
-body {
-  margin: 10px;
+.categories {
   display: inline-block;
-  box-sizing: border-box;
+  width: 17%;
 }
 
-div {
-  float: left;
+#first {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
 }
 
-#categories h4 {
-  color: grey;
-}
+@media screen and (max-width: 600px) {
+  .categories {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
 
-#categories2 h4 {
-  color: grey;
-}
-
-#categories3 h4 {
-  color: grey;
-}
-
-#categories4 h4 {
-  color: grey;
+  #first {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
 }

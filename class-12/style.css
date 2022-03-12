@@ -11,10 +11,8 @@
 #btn {
   margin-top: 300px;
   display: inline-block;
-  width: 5%;
+  width: 50%;
   position: relative;
-  background-color: darkblue;
-  border: 1px radius dark;
 }
 
 #btn > button {
@@ -28,16 +26,17 @@
   #text {
     margin-top: 0;
     padding-top: 100px;
-    width: 100%;
-    height: 10vh;
+    display: block;
+    width: auto;
   }
   #btn {
     margin-top: 20px;
+
     display: block;
     width: auto;
   }
 
   #btn > button {
-      
+    margin-left: 0;
   }
 }
